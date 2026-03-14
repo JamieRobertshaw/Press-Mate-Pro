@@ -379,6 +379,25 @@ input:focus, textarea:focus{
   border-radius: 8px;
   font-weight: 700;
 }
+@media (max-width: 900px) {
+
+  .workshop-feature-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .workshop-feature-image img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 20px auto;
+  }
+
+  .workshop-feature-content {
+    padding: 0 10px;
+  }
+
+}
+
 .top-contact-bar {
   background: #0b0f19;
   color: #d7deea;
