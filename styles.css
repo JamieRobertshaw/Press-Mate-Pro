@@ -317,3 +317,66 @@ input:focus, textarea:focus{
 .footer__links{ display:flex; gap: 1rem; flex-wrap: wrap; }
 .footer__links a{ color: var(--muted); }
 .footer__fine{ padding-top: 1rem; font-size: .9rem; }
+
+.workshop-feature {
+  padding: 80px 20px;
+  background: #0b0f19;
+}
+
+.workshop-feature-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.workshop-feature-image img {
+  width: 100%;
+  max-width: 520px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+}
+
+.workshop-feature-content {
+  color: white;
+}
+
+.workshop-feature-kicker {
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  color: #7ea6ff;
+  font-weight: 700;
+}
+
+.workshop-feature-content h2 {
+  font-size: 2.2rem;
+  margin: 10px 0;
+}
+
+.workshop-feature-content p {
+  color: #d7deea;
+  line-height: 1.6;
+}
+
+.workshop-feature-list {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.workshop-feature-list li {
+  margin-bottom: 8px;
+}
+
+.workshop-feature-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 22px;
+  background: #4a7dff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
