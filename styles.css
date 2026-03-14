@@ -379,4 +379,20 @@ input:focus, textarea:focus{
   border-radius: 8px;
   font-weight: 700;
 }
+.top-contact-bar {
+  background: #0b0f19;
+  color: #d7deea;
+  font-size: 0.9rem;
+  padding: 8px 20px;
+  text-align: right;
+}
+
+.top-contact-bar a {
+  color: #7ea6ff;
+  text-decoration: none;
+}
+
+.top-contact-bar a:hover {
+  text-decoration: underline;
+}
 
