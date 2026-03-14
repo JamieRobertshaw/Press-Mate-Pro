@@ -395,4 +395,18 @@ input:focus, textarea:focus{
 .top-contact-bar a:hover {
   text-decoration: underline;
 }
+.footer-contact {
+  margin-top: 30px;
+  color: #d7deea;
+  text-align: center;
+}
+
+.footer-contact a {
+  color: #7ea6ff;
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  text-decoration: underline;
+}
 
